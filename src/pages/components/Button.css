@@ -1,0 +1,18 @@
+button {
+    display: inline-block;
+    background-color: #105012; /* Green */
+    border: 1px solid #105012;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 4px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    max-width: max-content;
+    border-radius: 6px;
+}
+button:hover{
+    border-color: white;
+    opacity: 0.9;
+}

@@ -1,0 +1,34 @@
+form{
+    position: relative;
+    text-align: center;
+}
+input,textarea{
+    border: none;
+    border-radius: 6px;
+}
+
+input[type=text]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 50%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }

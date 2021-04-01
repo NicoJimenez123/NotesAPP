@@ -1,0 +1,29 @@
+.Note{
+    background-color: #404040;
+    padding-left: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.Note:hover{
+    border-color: white;
+    opacity: 0.9;
+}
+.Note-Title{
+    font-size: larger;
+    text-decoration-style: solid;
+}
+
+.Note-Body{
+    font-size: medium;
+}
+
+.Note-Date{
+    font-size: small;
+    text-align: right;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
